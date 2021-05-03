@@ -9,7 +9,7 @@
 	 * Small and capital Alphabets
 	 * Some numerical
 	 * And some special character like [@#$%]
-  Test case include
+  * Test case include
   
 ##### Feature 2: Add Stock in ArrayList
   Test case include
