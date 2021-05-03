@@ -9,10 +9,14 @@
 		 * Small and capital Alphabets
 	 	 * Some numerical
 		 * And some special character like [@#$%]
-  	* Test case include
+  	* Test case 
+  		 * Both username and password is correct
+  		 * Both username and password is wrong
+  		 * Username is correct but password wrong
+  		 * Username is wrong but password correct
   
 ##### Feature 2: Add Stock
-  * 
+  	* 
   Test case include
   
 ##### Feature 3: Filter Stock by category
