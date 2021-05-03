@@ -22,3 +22,5 @@
   	* Test case
   		* Check the product add in ArrayList
   
+##### Feature 3: Display stock
+	* Display all the stock present in the ArrayList
