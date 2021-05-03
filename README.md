@@ -18,17 +18,7 @@
   		 * Username is wrong but password correct
   
 ##### Feature 2: Add Stock
-  	* 
-  Test case include
+  	* Add the product in ArrayList
+  	* Test case
+  		* Check the product add in ArrayList
   
-##### Feature 3: Filter Stock by category
-  Test case include
-  
-##### Feature 4: Display All the stock
-  Test case include
-
-##### Feature 5: Return product
-  * Return all the product's present inside the Arraylist
-  * Test case include
-  
-##### Feature 6: Return filter Stock 
