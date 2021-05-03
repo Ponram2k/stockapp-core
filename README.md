@@ -10,6 +10,8 @@
 	 	 * Some numerical
 		 * And some special character like [@#$%]
   	* Test case 
+  		 * Username validation
+  		 * Password validation
   		 * Both username and password is correct
   		 * Both username and password is wrong
   		 * Username is correct but password wrong
