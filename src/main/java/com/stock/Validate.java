@@ -4,6 +4,12 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 public class Validate {
+	
+	/**
+	 * To validate user name should contain minimum of 4 character
+	 * @param username
+	 * @return
+	 */
 	public static boolean isValideUsername(String username) {
 		boolean validUsername = false;
 		if(username.length() >= 4)
@@ -12,6 +18,7 @@ public class Validate {
 		}
 		return validUsername;
 	}
+	
 	/**
 	 * Validate the password would contain,
 	 * minimum of 8 character maximum of 20 characters
