@@ -15,5 +15,17 @@ public class ProductManager {
 
 		stockDetails.add(product);
 	}
+	
+	
+	/**
+	 * This method is used to display all product's in the ArrayList
+	 */
+	public static void displayStock() {
+		
+		for (Product product : stockDetails) {
+			System.out.println(product.itemCode + " " + product.brandName + " " + product.itemCategory + " "
+					+ product.itemName + " " + product.rate + " " + product.quantity + " " + product.amount);
+		}
+	}
   
   }
