@@ -11,9 +11,12 @@ public class ProductManager {
 	 * 
 	 * @param product
 	 */
-	public static void addStock(Product product) {
+	public static void addStock(Product... products) {
 
+	for (Product product : products) {
+		
 		stockDetails.add(product);
+		}
 	}
 	
 	
