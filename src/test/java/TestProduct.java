@@ -1,7 +1,7 @@
 import static org.junit.Assert.*;
 
-import java.util.ArrayList;
-
+import org.junit.After;
+import org.junit.Before;
 import org.junit.Test;
 
 import com.stock.Product;
@@ -9,8 +9,9 @@ import com.stock.ProductManager;
 
 public class TestProduct {
 
-	@Test
-	public void testAddStock() {
+	@Before
+	public void setUp() throws Exception {
+
 		Product product1 = new Product();
 		product1.itemCode = 1;
 		product1.brandName = "Nokia";
@@ -48,14 +49,28 @@ public class TestProduct {
 		product4.amount = product4.rate * product4.quantity;
 
 		// Add 4 different product in the ArrayList
-		ProductManager.addStock(product1);
-		ProductManager.addStock(product2);
-		ProductManager.addStock(product3);
-		ProductManager.addStock(product4);
-		
-		// Check the product is added
+		ProductManager.addStock(product1, product2, product3, product4);
+//		ProductManager.addStock();
+//		ProductManager.addStock();
+//		ProductManager.addStock();
+	}
+
+	@After
+	public void tearDown() throws Exception {
+		ProductManager.stockDetails.clear();
+	}
+
+	@Test
+	public void testAddStock() {
+
 		Product checkProduct = ProductManager.stockDetails.get(0);
 		assertEquals("Nokia", checkProduct.brandName);
 	}
-  
+
+	@Test
+	public void testDisplayStock() {
+
+		ProductManager.displayStock();
+	}
+
 }
