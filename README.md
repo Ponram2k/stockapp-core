@@ -24,3 +24,5 @@
   
 ##### Feature 3: Display stock
 	* Display all the stock present in the ArrayList
+	* Test Case
+		*To display all the product's in ArrayList
