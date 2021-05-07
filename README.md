@@ -2,10 +2,10 @@
 
 
 ##### Feature 1: Login
-  	* I have created single user for login username : Admin and password : Admin@1234
-  	* User validation done by username should contain minimum of 4 character
-  	* Password Validation done by password should contain,
-  		 * minimum of 8 character maximum of 20 characters
+  * I have created single user for login username : Admin and password : Admin@1234
+  * User validation done by username should contain minimum of 4 character
+  * Password Validation done by password should contain,
+  		* minimum of 8 character maximum of 20 characters
 		 * Small and capital Alphabets
 	 	 * Some numerical
 		 * And some special character like [@#$%]
