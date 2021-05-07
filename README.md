@@ -48,13 +48,13 @@
   	* User name should be greate than 4 character
   	* Password has been validated as same as login
   	* Email format should be,
-  	        * digits—0 to 9
-	 	* lower case and upper letters — a to z and A to Z
-     	       * Some special characters
+  		* digits [0 to 9]
+	 	* lower case and upper letters [ a to z and A to Z ]
+     	        * Some special characters
     	 	* After @ symbol use domain name for email address with same alphabet and digit's criteria
      		* Furthermore, the domain name section of the email address may consist of,
-     		* digits—0 to 9
-	 	* lower case and upper letters — a to z
+     		* digits [ 0 to 9 ]
+	 	* lower case and upper letters  [ a to z ]
 	* And there should no Duplicate user
   * Test case
   	* To check the whether the user is added inthe Arreaylist
